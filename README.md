@@ -25,13 +25,13 @@
 ## Description
 
 
-NestJS 学习demo. 一个提供了文件上传下载的简单服务器.    
-demo 侧重于 单元测试 | e2e 测试 | 中间件 | 拦截器 | 文件上传 | 配置文件的学习和理解.  
-单元测试相关链接: https://zhuanlan.zhihu.com/p/428558792
+NestJS study demo. a server that provide file upload /download route.    
+demo focus on unit test | e2e test | middleware | interceptor | file upload | config.    
+unit test : https://zhuanlan.zhihu.com/p/428558792
 
-## 配置文件
-.local.env    本地开发时使用的配置文件  
-.test.env   nest 测试时使用的配置文件, 默认设置 NODE_ENV=test
+## config fiel
+.local.env    config file in local   
+.test.env   config file when run e2e test
 
 ## Installation
 
@@ -65,16 +65,4 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
