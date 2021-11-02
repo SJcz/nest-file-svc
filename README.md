@@ -24,7 +24,14 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+
+NestJS 学习demo. 一个提供了文件上传下载的简单服务器.    
+demo 侧重于 单元测试 | e2e 测试 | 中间件 | 拦截器 | 文件上传 | 配置文件的学习和理解.  
+单元测试相关链接: https://zhuanlan.zhihu.com/p/428558792
+
+## 配置文件
+.local.env    本地开发时使用的配置文件  
+.test.env   nest 测试时使用的配置文件, 默认设置 NODE_ENV=test
 
 ## Installation
 
