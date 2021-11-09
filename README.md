@@ -1,45 +1,21 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
-</p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## 描述
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+NestJs 学习 demo, 一个提供了 文件上传/下载 路由的服务.  
+demo 重点关注于 单元测试 | e2e 测试 | 中间件 | 拦截器 | 文件上传 | 配置文件 等等  
+单元测试相关理解: https://zhuanlan.zhihu.com/p/428558792
 
-## Description
+## 配置文件
+.local.env  本地开发时的配置文件  
+.test.env   进行 e2e 测试时的配置文件(e2e 测试时, 环境变量=test)
 
-
-NestJS study demo. a server that provide file upload /download route.    
-demo focus on unit test | e2e test | middleware | interceptor | file upload | config.    
-unit test : https://zhuanlan.zhihu.com/p/428558792
-
-## config fiel
-.local.env    config file in local   
-.test.env   config file when run e2e test
-
-## Installation
+## 安装
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+## 启动服务
 
 ```bash
 # development
@@ -52,13 +28,13 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## 测试
 
 ```bash
-# unit tests
+# 单元测试
 $ npm run test
 
-# e2e tests
+# e2e 测试
 $ npm run test:e2e
 
 # test coverage
